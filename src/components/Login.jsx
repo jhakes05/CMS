@@ -54,7 +54,7 @@ const Login = () => {
                 </form>
                 <Link to='/'>
                 <button className="create-account-btn" >
-                   yes
+                   no
                 </button>
                 </Link>
                 {/* Create Account Button */}
