@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const Dashboard = () => {
     const openCreateForm = (functionName) => {
         alert(`You clicked on "${functionName}" button. Implement your logic here.`);
@@ -10,7 +10,7 @@ const Dashboard = () => {
         <div>
             <header>
                 <h1>Certification Management System</h1>
-                <a href="index.html">Logout</a>
+                <Link to ="/">Logout</Link>
             </header>
 
             <section className="dashboard-content">

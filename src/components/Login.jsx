@@ -14,7 +14,7 @@ const Login = () => {
         const tempAdminPassword = 'admin123';
 
         if (username === tempAdminUsername && password === tempAdminPassword) {
-            window.location.href = <Link to='/main'/>; // Replace with React Router navigation
+            window.location.href = '/main'; // Replace with React Router navigation
         } else {
             alert('Invalid username or password. Please try again.');
         }
@@ -52,11 +52,6 @@ const Login = () => {
 
                     <button type="submit">Login</button>
                 </form>
-                <Link to='/'>
-                <button className="create-account-btn" >
-                   no
-                </button>
-                </Link>
                 {/* Create Account Button */}
                 <button className="create-account-btn" onClick={redirectToCreateAccount}>
                     Create Account
